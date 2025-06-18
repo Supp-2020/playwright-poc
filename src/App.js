@@ -1,8 +1,10 @@
+import Button from "./button";
 
 function App() {
   return (
     <div className="App">
-     NO HELLO
+     <Button />
+     <Button typeRed={true}/>
     </div>
   );
 }
