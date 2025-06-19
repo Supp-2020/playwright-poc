@@ -30,6 +30,9 @@ export default defineConfig({
   screenshot: 'only-on-failure',
   trace: 'on-first-retry',
   viewport: { width: 1280, height: 720 },
+    screenshotOptions: {
+    threshold: 0.01, // 1% pixel difference tolerance
+  },
   },
 
   /* Configure projects for major browsers */
